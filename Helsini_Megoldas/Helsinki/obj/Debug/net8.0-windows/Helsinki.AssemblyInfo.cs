@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Helsinki")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7702f7bdbaebffa7edd1331bb5e5805474a469e1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+531f20c582ae2d5f32331d4496948b8fd575ce57")]
 [assembly: System.Reflection.AssemblyProductAttribute("Helsinki")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Helsinki")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
