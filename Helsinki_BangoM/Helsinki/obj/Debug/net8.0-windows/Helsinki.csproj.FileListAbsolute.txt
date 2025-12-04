@@ -1,0 +1,16 @@
+C:\Users\bangomate2443\Desktop\Helsinki_BangoM\Helsinki\bin\Debug\net8.0-windows\Helsinki.exe
+C:\Users\bangomate2443\Desktop\Helsinki_BangoM\Helsinki\bin\Debug\net8.0-windows\Helsinki.deps.json
+C:\Users\bangomate2443\Desktop\Helsinki_BangoM\Helsinki\bin\Debug\net8.0-windows\Helsinki.runtimeconfig.json
+C:\Users\bangomate2443\Desktop\Helsinki_BangoM\Helsinki\bin\Debug\net8.0-windows\Helsinki.dll
+C:\Users\bangomate2443\Desktop\Helsinki_BangoM\Helsinki\bin\Debug\net8.0-windows\Helsinki.pdb
+C:\Users\bangomate2443\Desktop\Helsinki_BangoM\Helsinki\obj\Debug\net8.0-windows\Helsinki.Form1.resources
+C:\Users\bangomate2443\Desktop\Helsinki_BangoM\Helsinki\obj\Debug\net8.0-windows\Helsinki.csproj.GenerateResource.cache
+C:\Users\bangomate2443\Desktop\Helsinki_BangoM\Helsinki\obj\Debug\net8.0-windows\Helsinki.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bangomate2443\Desktop\Helsinki_BangoM\Helsinki\obj\Debug\net8.0-windows\Helsinki.AssemblyInfoInputs.cache
+C:\Users\bangomate2443\Desktop\Helsinki_BangoM\Helsinki\obj\Debug\net8.0-windows\Helsinki.AssemblyInfo.cs
+C:\Users\bangomate2443\Desktop\Helsinki_BangoM\Helsinki\obj\Debug\net8.0-windows\Helsinki.csproj.CoreCompileInputs.cache
+C:\Users\bangomate2443\Desktop\Helsinki_BangoM\Helsinki\obj\Debug\net8.0-windows\Helsinki.dll
+C:\Users\bangomate2443\Desktop\Helsinki_BangoM\Helsinki\obj\Debug\net8.0-windows\refint\Helsinki.dll
+C:\Users\bangomate2443\Desktop\Helsinki_BangoM\Helsinki\obj\Debug\net8.0-windows\Helsinki.pdb
+C:\Users\bangomate2443\Desktop\Helsinki_BangoM\Helsinki\obj\Debug\net8.0-windows\Helsinki.genruntimeconfig.cache
+C:\Users\bangomate2443\Desktop\Helsinki_BangoM\Helsinki\obj\Debug\net8.0-windows\ref\Helsinki.dll
