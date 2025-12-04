@@ -31,7 +31,9 @@
             tableLayoutPanel1 = new TableLayoutPanel();
             tableLayoutPanel2 = new TableLayoutPanel();
             buttonBeolvas = new Button();
+            Task2Btn = new Button();
             richTextBox1 = new RichTextBox();
+            Task3Btn = new Button();
             tableLayoutPanel1.SuspendLayout();
             tableLayoutPanel2.SuspendLayout();
             SuspendLayout();
@@ -56,7 +58,9 @@
             // 
             tableLayoutPanel2.ColumnCount = 1;
             tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
+            tableLayoutPanel2.Controls.Add(Task3Btn, 0, 2);
             tableLayoutPanel2.Controls.Add(buttonBeolvas, 0, 0);
+            tableLayoutPanel2.Controls.Add(Task2Btn, 0, 1);
             tableLayoutPanel2.Dock = DockStyle.Fill;
             tableLayoutPanel2.Location = new Point(3, 3);
             tableLayoutPanel2.Name = "tableLayoutPanel2";
@@ -80,6 +84,17 @@
             buttonBeolvas.UseVisualStyleBackColor = true;
             buttonBeolvas.Click += buttonBeolvas_Click;
             // 
+            // Task2Btn
+            // 
+            Task2Btn.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            Task2Btn.Location = new Point(3, 98);
+            Task2Btn.Name = "Task2Btn";
+            Task2Btn.Size = new Size(118, 23);
+            Task2Btn.TabIndex = 1;
+            Task2Btn.Text = "2. Feladat";
+            Task2Btn.UseVisualStyleBackColor = true;
+            Task2Btn.Click += Task2Btn_Click;
+            // 
             // richTextBox1
             // 
             richTextBox1.Dock = DockStyle.Fill;
@@ -89,6 +104,17 @@
             richTextBox1.Size = new Size(590, 370);
             richTextBox1.TabIndex = 1;
             richTextBox1.Text = "";
+            // 
+            // Task3Btn
+            // 
+            Task3Btn.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            Task3Btn.Location = new Point(3, 171);
+            Task3Btn.Name = "Task3Btn";
+            Task3Btn.Size = new Size(118, 23);
+            Task3Btn.TabIndex = 2;
+            Task3Btn.Text = "3. Feladat";
+            Task3Btn.UseVisualStyleBackColor = true;
+            Task3Btn.Click += Task3Btn_Click;
             // 
             // Form1
             // 
@@ -109,5 +135,7 @@
         private TableLayoutPanel tableLayoutPanel2;
         private Button buttonBeolvas;
         private RichTextBox richTextBox1;
+        private Button Task2Btn;
+        private Button Task3Btn;
     }
 }

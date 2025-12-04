@@ -4,6 +4,7 @@ namespace Helsinki
     {
         private static List<Versenyzo> Versenyzok = new List<Versenyzo>();
         private static List<Versenyzo> Dontosok = new List<Versenyzo>();
+        private static bool isFileRead = false;
         public Form1()
         {
             InitializeComponent();
@@ -23,13 +24,15 @@ namespace Helsinki
                     try
                     {
                         Versenyzok.Add(new Versenyzo(sr.ReadLine().Split(';')));
-                    } catch (Exception ex)
+                    }
+                    catch (Exception ex)
                     {
                         MessageBox.Show(ex.Message, "Hiba a versenyzõ hozzáadása során.");
                     }
                 }
                 MessageBox.Show($"Sikeres olvasás: {filePath}");
-            } 
+                isFileRead = true;
+            }
             catch (FileNotFoundException)
             {
                 MessageBox.Show($"Nincs ilyen file: {filePath}");
@@ -59,6 +62,7 @@ namespace Helsinki
                     }
                 }
                 MessageBox.Show($"Sikeres olvasás: {filePath}");
+                isFileRead = true;
             }
             catch (FileNotFoundException)
             {
@@ -102,5 +106,44 @@ namespace Helsinki
             }
             #endregion
         }
+
+        private void Task2Btn_Click(object sender, EventArgs e)
+        {
+            if (isFileRead)
+            {
+                richTextBox1.Text += $"2. feladat\n\tA rövidprogramban {Versenyzok.Count()} induló volt.\n";
+            } else
+            {
+                richTextBox1.Text = "A file / fileok nem lettek beolvasva.";
+            }
+        }
+
+        private void Task3Btn_Click(object sender, EventArgs e)
+        {
+            if (isFileRead)
+            {
+                bool magyarBejutott = false;
+                foreach (var i in Versenyzok)
+                {
+                    if (i.Orszag == "HUN")
+                    {
+                        magyarBejutott = true;
+                        break;
+                    }
+                }
+                if (magyarBejutott)
+                {
+                    richTextBox1.Text += $"3. feladat\n\tA magyar versenyzõ bejutott a kûrbe.\n";
+                }
+                else
+                {
+                    richTextBox1.Text += $"3. feladat\n\tA magyar versenyzõ nem jutott be a kûrbe.\n";
+                }
+            } else
+            {
+                richTextBox1.Text = "A file / fileok nem lettek beolvasva.";
+            }
+        }
+
     }
 }
